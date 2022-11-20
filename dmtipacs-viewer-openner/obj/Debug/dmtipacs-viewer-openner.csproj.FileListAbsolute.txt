@@ -1,0 +1,14 @@
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\dmtipacs-viewer-openner.exe.config
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\dmtipacs-viewer-openner.exe
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\dmtipacs-viewer-openner.pdb
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.csprojResolveAssemblyReference.cache
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs_viewer_openner.FrmMain.resources
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs_viewer_openner.Properties.Resources.resources
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.csproj.GenerateResource.Cache
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.exe
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.pdb
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\config.json
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\dmtipacs-viewer-openner.exe.manifest
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\bin\Debug\dmtipacs-viewer-openner.application
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.exe.manifest
+C:\hgminerva\vs2013\dmtipacs-viewer-openner\dmtipacs-viewer-openner\obj\Debug\dmtipacs-viewer-openner.application
