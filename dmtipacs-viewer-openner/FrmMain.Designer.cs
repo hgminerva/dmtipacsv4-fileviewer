@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDropboxDrive = new System.Windows.Forms.TextBox();
             this.txtDirectoryLevel = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtViewerProgramPath = new System.Windows.Forms.TextBox();
@@ -42,8 +44,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.fswViewerOpener = new System.IO.FileSystemWatcher();
-            this.txtDropboxDrive = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,6 +66,23 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Path";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(124, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Dropbox Directory Level:";
+            // 
+            // txtDropboxDrive
+            // 
+            this.txtDropboxDrive.Enabled = false;
+            this.txtDropboxDrive.Location = new System.Drawing.Point(131, 64);
+            this.txtDropboxDrive.Name = "txtDropboxDrive";
+            this.txtDropboxDrive.Size = new System.Drawing.Size(49, 20);
+            this.txtDropboxDrive.TabIndex = 6;
             // 
             // txtDirectoryLevel
             // 
@@ -94,6 +111,7 @@
             // 
             // txtJSONPath
             // 
+            this.txtJSONPath.AcceptsReturn = true;
             this.txtJSONPath.Enabled = false;
             this.txtJSONPath.Location = new System.Drawing.Point(131, 19);
             this.txtJSONPath.Name = "txtJSONPath";
@@ -169,25 +187,11 @@
             // 
             this.fswViewerOpener.EnableRaisingEvents = true;
             this.fswViewerOpener.Filter = "*.json";
+            this.fswViewerOpener.Path = "D:\\Downloads";
             this.fswViewerOpener.SynchronizingObject = this;
             this.fswViewerOpener.Changed += new System.IO.FileSystemEventHandler(this.fswViewerOpener_Changed);
-            // 
-            // txtDropboxDrive
-            // 
-            this.txtDropboxDrive.Enabled = false;
-            this.txtDropboxDrive.Location = new System.Drawing.Point(131, 64);
-            this.txtDropboxDrive.Name = "txtDropboxDrive";
-            this.txtDropboxDrive.Size = new System.Drawing.Size(49, 20);
-            this.txtDropboxDrive.TabIndex = 6;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 90);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Dropbox Directory Level:";
+            this.fswViewerOpener.Created += new System.IO.FileSystemEventHandler(this.fswViewerOpener_Created);
+            this.fswViewerOpener.Renamed += new System.IO.RenamedEventHandler(this.fswViewerOpener_Renamed);
             // 
             // FrmMain
             // 
